@@ -1,0 +1,28 @@
+html {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 250%;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: #F5F5F5;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+
+
+.form__taskDone {
+    text-decoration: line-through;
+}
+.form__buttonDone {
+    
+}
+
+.form__buttonDelete {
+ 
+
+}

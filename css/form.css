@@ -1,0 +1,23 @@
+.form__header {
+    display: flex;
+   flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.form_entryField {
+    display: flex;
+    justify-content: flex-start;
+}
+.form__addNewTask{
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+.form__newTask {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
