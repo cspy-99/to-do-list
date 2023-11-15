@@ -55,9 +55,9 @@
         <li
         class="form__task${task.done ? " form__taskDone" : ""}" 
         >
-        <button class= "form__buttonDone  js-done">zrobione?</button>
+        <button class= "form__buttonDone  js-done ${task.done ? "form__buttonDoneOn" : ""}"></button>
         ${task.content}
-        <button class="form__buttonDelete  js-remove">usuń</button>
+        <button class="form__buttonDelete  js-remove"></button>
         
         </li>
     `;
