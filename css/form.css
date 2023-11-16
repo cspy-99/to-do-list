@@ -58,7 +58,7 @@
 }
 
 .form__buttonDone {
-    background-image: url(./images/emptyTask.png);
+    background-image: url(".../images/emptyTask.png");
     width: 30px;
     height: 30px;
     background-size: contain;
