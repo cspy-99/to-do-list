@@ -58,14 +58,14 @@
 }
 
 .form__buttonDone {
-    background-image: url(/images/emptyTask.png);
+    background-image: url(./images/emptyTask.png);
     width: 30px;
     height: 30px;
     background-size: contain;
 }
 
 .form__buttonDoneOn {
-    background-image: url(/images/taskDone.png);
+    background-image: url(./images/taskDone.png);
     width: 30px;
     height: 30px;
     background-size: contain;
@@ -73,7 +73,7 @@
 
 .form__buttonDelete {
     float: right;
-    background-image: url(/images/deletebutton.png);
+    background-image: url(./images/deletebutton.png);
     width: 30px;
     height: 30px;
     background-size: contain;
