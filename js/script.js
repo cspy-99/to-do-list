@@ -5,9 +5,12 @@
         tasks.push({
             content: newTaskContent,
         });
-        document.querySelector(".js-newTask").value = "";
+        const newTaskInput = document.querySelector(".js-newTask");
+        newTaskInput.value = "";
+    
 
         render();
+        newTaskInput.focus();
     };
 
     const removeTask = (taskIndex) => {
@@ -71,6 +74,8 @@
                 return;
             }
             addNewTask(newTaskContent);
+            document.querySelector(".js-newTask").focus();
+
         });
     };
     init();

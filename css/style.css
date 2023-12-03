@@ -12,3 +12,8 @@ html {
 ::before {
     box-sizing: inherit;
 }
+
+
+.js-newTask:focus {
+    border: 2px solid red;
+  }
