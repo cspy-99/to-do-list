@@ -4,7 +4,7 @@ html {
     line-height: 250%;
     box-sizing: border-box;
     min-height: 100vh;
-    background-color: #F5F5F5;
+    background-color: #eee;
 }
 
 *,
@@ -12,8 +12,3 @@ html {
 ::before {
     box-sizing: inherit;
 }
-
-
-.js-newTask:focus {
-    border: 2px solid red;
-  }

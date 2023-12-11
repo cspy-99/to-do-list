@@ -19,16 +19,20 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
+    <link href="css/tasks.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
     <title>Document</title>
 </head>
 
 <body>
-
     <div class="container__box">
-        <section>
             <div class="form__task">
-                <h1 class="form__headerMain">Lista zadań </h1>
+                <header>
+                    <h1>Lista zadań </h1>
+                </header>
+
+                <section class="section">
+                    <div class="form__section">
                 <h2 class="form__header">Dodaj nowe zadanie</h2>
                 <form class="form__field  js-form">
                     <div class="form__addNewTask">
@@ -36,12 +40,12 @@
                         <button class="form__newTaskButton">Dodaj zadanie</button>
                     </div>
                 </form>
+            </div>
         </section>
-        <section>
-            <div class="form__newTasks">
-                <h3 class="form__header">Lista zadań</h3>
-                <div class="form__schedule">
-                    <ul class="form__newTask js-tasks"></ul>
+        <section class="section">
+            <div class="form__section">
+                <h2 class="form__header">Lista zadań</h2>
+                    <ul class="form__newTasks js-tasks"></ul>
                 </div>
             </div>
         </section>

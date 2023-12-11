@@ -1,6 +1,6 @@
 .container__box {
-    background-color: #fff;
-    margin: 20%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 @media (max-width: 767px) {
