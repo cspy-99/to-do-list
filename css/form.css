@@ -20,6 +20,12 @@
     background: hsl(180, 100%, 25%);
     color: white;
     border: none;
+    transition: 1s;
+}
+
+.form__newTaskButton:hover {
+    background: hsl(180, 100%, 30%);
+    transform: scale(1.07);
 }
 
 .form__entryField {
@@ -40,13 +46,14 @@
 }
 
 .form__header {
-     font-size: 20px;
-     padding: 20px;
-     margin: 0;
-     border-bottom: 1px solid #ddd;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
 }
 
 @media (max-width: 767px) {
     .form__addNewTask {
         grid-template-columns: 1fr;
-    }}
+    }
+}
