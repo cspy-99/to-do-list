@@ -1,0 +1,14 @@
+html {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 250%;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: #eee;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}

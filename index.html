@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista zadań</title>
+    <link rel="icon" href="images/icon.png">
+    <meta property="og:image" content="images/share.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/tasks.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container__box">
+        <div class="form__task">
+            <header>
+                <h1>Lista zadań </h1>
+            </header>
+
+            <section class="section">
+                <div class="form__section">
+                    <h2 class="form__header ">Dodaj nowe zadanie</h2>
+                    <form class="form__field  js-form">
+                        <div class="form__addNewTask">
+                            <input class="form__entryField  js-newTask" placeholder="Co jest do zrobienia?">
+                            <button class="form__newTaskButton">Dodaj zadanie</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="section">
+                <div class="form__section">
+                    <div class="form__placeForButtons">
+                        <h2 class="form__header form__header--border">Lista zadań</h2>
+                        <div class="form__hiddenButtons js-buttons">
+                            <button class="form__hidingButton js-hideButton">Ukryj ukończone</button>
+                            <button class="form__endingButton js-endButton">Ukończ wszystkie</button>
+                        </div>
+                    </div>
+                    <p class="form__fadingButtons js-fadingButtons"></p>
+                    <ul class="form__newTasks js-tasks"></ul>
+                </div>
+        </div>
+        </section>
+    </div>
+</body>
+
+</html>
